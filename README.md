@@ -71,23 +71,30 @@ Prints the string representation of an instance based on the class name and id. 
 
 Deletes an instance based on the class name and id (save the change into the JSON file). Ex:
 
-'$ destroy BaseModel 1234-1234-1234.'
+`
+$ destroy BaseModel 1234-1234-1234.
+`
 
 **all**
 
 Prints all string representation of all instances based or not on the class name. Example to show al instances
 
-'$ all'
+`$ all
+`
 
 Example to show all instances of BaseModel only
 
-'$ all BaseModel'
+`
+$ all BaseModel
+`
 
 **update:**
 
 Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). Ex:
 
- `$ update BaseModel 1234-1234-1234 email "airbnb@holbertonschool.com`
+`
+  $ update BaseModel 1234-1234-1234 email "airbnb@holbertonschool.com
+`
 
 **quit:**
 
