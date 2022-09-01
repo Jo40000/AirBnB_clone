@@ -86,9 +86,12 @@ Example to show all instances of BaseModel only
 **update:**
 
 Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). Ex:
+'''
+{
+  $ update BaseModel 1234-1234-1234 email "airbnb@holbertonschool.com"'
+}
 
-'$ update BaseModel 1234-1234-1234 email "airbnb@holbertonschool.com"'
-
+'''
 **quit:**
 
 Quit the shell
