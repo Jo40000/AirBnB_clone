@@ -31,9 +31,12 @@ python3
 
 Clone this repository
 
-'https://github.com/Jo40000/AirBnB_clone.git
+```
+https://github.com/Jo40000/AirBnB_clone.git
 cd AirBnB_clone
-./console.py'
+./console.py
+
+```
 
 #Running the tests
 ---
